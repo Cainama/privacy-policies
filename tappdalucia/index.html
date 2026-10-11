@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de privacidad — TAppdalucia</title>
+<meta name="description" content="Qué datos trata la aplicación TAppdalucia, para qué, y cómo ejercer tus derechos.">
+<style>
+  :root {
+    --tinta: #1b1b1f; --tinta-suave: #55555f; --fondo: #fbfbfd;
+    --papel: #ffffff; --borde: #e3e3ea; --acento: #2a6b7c;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --tinta: #e6e6ec; --tinta-suave: #a5a5b0; --fondo: #131316;
+      --papel: #1b1b20; --borde: #2e2e36; --acento: #7fc4d6;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 2rem 1.25rem 5rem; background: var(--fondo); color: var(--tinta);
+    font: 17px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 46rem; margin: 0 auto; }
+  header { border-bottom: 1px solid var(--borde); padding-bottom: 1.5rem; margin-bottom: 2rem; }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 .4rem; }
+  header p { margin: 0; color: var(--tinta-suave); }
+  h2 { margin-top: 2.6rem; font-size: 1.35rem; }
+  h3 { margin-top: 2.4rem; font-size: 1.15rem; color: var(--acento); }
+  blockquote {
+    margin: 1.4rem 0; padding: .9rem 1.1rem; background: var(--papel);
+    border-left: 3px solid var(--acento); border-radius: 0 8px 8px 0; color: var(--tinta-suave);
+  }
+  blockquote p:first-child { margin-top: 0; }
+  blockquote p:last-child { margin-bottom: 0; }
+  code {
+    background: var(--papel); border: 1px solid var(--borde); border-radius: 5px;
+    padding: .12em .4em; font-size: .9em; word-break: break-word;
+  }
+  ol, ul { padding-left: 1.3rem; }
+  li { margin: .4rem 0; }
+  a { color: var(--acento); }
+  footer {
+    margin-top: 3.5rem; padding-top: 1.5rem; border-top: 1px solid var(--borde);
+    color: var(--tinta-suave); font-size: .92rem;
+  }
+</style>
+</head>
+<body>
+<main>
+<header>
+  <h1>Política de privacidad de TAppdalucia</h1>
+  <p>Aplicación de transporte público de Andalucía</p>
+</header>
+<p><strong>Última actualización:</strong> <code>11 de octubre de 2026</code></p>
+<h3>Quién trata tus datos</h3>
+<p>TAppdalucia es una aplicación desarrollada por <strong>Cainama</strong>, desarrollador individual. Para cualquier
+cuestión sobre privacidad, incluido el ejercicio de tus derechos: <code>cainama@cainama.com</code>.</p>
+<h3>El resumen, en cuatro frases</h3>
+<ol>
+<li>La aplicación <strong>funciona sin cuenta</strong>: no hay registro, ni usuario, ni contraseña.</li>
+<li>La <strong>estadística de uso está apagada</strong> hasta que tú la enciendes.</li>
+<li>Tu <strong>ubicación no sale del dispositivo</strong>.</li>
+<li>Lo que se lee de tus <strong>tarjetas de transporte no sale del dispositivo</strong>.</li>
+</ol>
+<h3>Qué datos se tratan, para qué, y con qué base</h3>
+<p><strong>Ubicación (permisos de ubicación precisa y aproximada).</strong> Se usa para ordenar paradas y líneas por
+cercanía y para centrar el mapa. <strong>Se procesa en el dispositivo y no se envía a ningún servidor
+nuestro.</strong> Puedes negar el permiso: la aplicación sigue funcionando, ordenando por el centro de
+Andalucía en vez de por tu posición. <em>Base: tu consentimiento, que das al conceder el permiso y
+retiras al revocarlo en los ajustes del sistema.</em></p>
+<p><strong>Tarjetas de transporte (permiso NFC).</strong> Al acercar una tarjeta compatible se leen su <strong>saldo</strong> y su
+<strong>número</strong>. <strong>Esa lectura se queda en el dispositivo</strong>, en la base de
+datos local de la aplicación, para que puedas volver a consultarla sin la tarjeta delante. No se
+envía a ningún servidor. Si desinstalas la aplicación, desaparece. <em>Base: tu consentimiento,
+implícito en el gesto de acercar la tarjeta.</em></p>
+<p><strong>Estadística de uso — desactivada por defecto.</strong> Si la activas en Ajustes, la aplicación envía a un
+servidor propio qué pantallas se abren y qué tipo de contenido se consulta (línea, noticia, lugar),
+junto con la versión de la aplicación, la plataforma y un identificador del dispositivo. Ese
+identificador es un <strong>resumen criptográfico irreversible (SHA-256)</strong> de identificadores del aparato:
+sirve para no contar dos veces el mismo dispositivo y <strong>no permite recuperar el original ni
+identificarte por nombre</strong>. No se envía el contenido de tus búsquedas, ni tu ubicación, ni nada de
+tus tarjetas. <em>Base: tu consentimiento, que puedes retirar cuando quieras en Ajustes.</em></p>
+<blockquote>
+<p>Aun siendo un resumen irreversible, ese identificador se trata como <strong>dato personal
+pseudonimizado</strong>, porque permite distinguir un dispositivo de otro. Por eso está bajo
+consentimiento y por eso puedes borrarlo.</p>
+</blockquote>
+<p><strong>Informes de fallo — activados de serie, y se pueden apagar.</strong> Si la aplicación se cierra sola,
+envía a <strong>Google Crashlytics</strong> el rastro del fallo: en qué punto del programa ocurrió, la versión de
+la aplicación, el modelo del aparato y su versión de Android, y cuánta memoria quedaba. <strong>No lleva
+nada tuyo</strong>: ni tu ubicación, ni tus búsquedas, ni nada de tus tarjetas. Sirve para una sola cosa,
+que es arreglar lo que se ha roto.</p>
+<p>A diferencia de la estadística, esto viene <strong>encendido</strong>, porque una versión que se cierra sola en un
+móvil que no tenemos delante es un fallo que no podríamos reparar de otro modo. Se apaga en
+<strong>Ajustes → «Enviar informes de fallo»</strong>, y desde ese momento no se envía ninguno. <em>Base: nuestro
+interés legítimo en que la aplicación no se rompa, con el derecho a oponerte ejercitable desde ese
+mismo interruptor.</em></p>
+<p><strong>Publicidad.</strong> La aplicación <strong>puede</strong> mostrar publicidad, y quién la sirve depende de la versión
+que tengas instalada: <strong>Google AdMob</strong> en las versiones que la llevan activada, y <strong>AppLovin MAX</strong> en
+las que se distribuyan con esa red. Hay versiones que <strong>no muestran publicidad de ninguna red</strong>: en
+ellas no se carga ningún SDK publicitario y el hueco se queda con un aviso de que ahí iría un
+anuncio.</p>
+<p>La publicidad <strong>no personalizada</strong> no usa tu identificador publicitario para construir un perfil. La
+<strong>personalizada</strong> requiere que la aceptes expresamente: es un consentimiento <strong>distinto y separado</strong>
+del de la estadística, y puedes cambiarlo en Ajustes. Además, en el Espacio Económico Europeo y el
+Reino Unido, la aplicación te pregunta antes de servir publicidad de Google mediante el formulario de
+consentimiento del propio Google (UMP); si no lo aceptas, no se sirve publicidad personalizada.</p>
+<p>Si aceptas, la red que sirva la publicidad trata datos por su cuenta como responsable propio. Sus
+políticas: Google AdMob en <code>https://policies.google.com/technologies/partner-sites</code> y AppLovin en
+<code>https://www.applovin.com/privacy/</code>.</p>
+<p>En los dispositivos que lo admiten, el SDK de publicidad puede apoyarse en los servicios de
+<strong>Privacy Sandbox</strong> de Android —la aplicación declara los permisos <code>ACCESS_ADSERVICES_TOPICS</code>,
+<code>ACCESS_ADSERVICES_ATTRIBUTION</code> y <code>ACCESS_ADSERVICES_AD_ID</code>—. Son el mecanismo con el que el propio
+sistema operativo deduce categorías de interés y mide conversiones <strong>sin entregar tu identificador a
+la red</strong>. Igual que el resto de la publicidad personalizada, dependen de que la aceptes: si no lo
+haces, no se usan.</p>
+<p><strong>Preferencias de la aplicación.</strong> Idioma, tema, fuentes de noticias elegidas, favoritos y tarjetas
+guardadas se almacenan <strong>sólo en el dispositivo</strong>.</p>
+<h3>Con quién se comparten</h3>
+<ul>
+<li><strong>La red publicitaria de la versión que tengas</strong> —Google AdMob o AppLovin—, en los términos de
+  arriba, y sólo si esa versión lleva publicidad.</li>
+<li><strong>Nuestro propio servidor de estadística</strong>, y sólo si la activaste.</li>
+<li><strong>Nadie más.</strong> No hay venta de datos, ni cesión a terceros, ni intercambio con anunciantes.</li>
+</ul>
+<p>La aplicación consulta datos públicos de transporte (Consorcio de Transporte de Andalucía, Renfe),
+cartografía (OpenStreetMap) e imágenes (Wikimedia Commons). Esas consultas <strong>piden información, no
+envían datos tuyos</strong>: como en cualquier petición a internet, el servidor consultado verá la dirección
+IP desde la que se hace.</p>
+<h3>Cuánto tiempo se conservan</h3>
+<p>Lo que está en el dispositivo dura hasta que lo borras o desinstalas la aplicación. Los datos de
+estadística se conservan mientras la tengas activada; al desactivarla se deja de enviar, y con la
+opción de borrado se eliminan también los ya enviados.</p>
+<h3>Tus derechos</h3>
+<p>Tienes derecho a acceder a tus datos, corregirlos, borrarlos, limitar su tratamiento y oponerte a él,
+y a presentar una reclamación ante la <strong>Agencia Española de Protección de Datos</strong> (<code>www.aepd.es</code>).</p>
+<p>Dos de ellos los ejerces <strong>tú mismo, dentro de la aplicación, sin pedir permiso a nadie</strong>:</p>
+<ul>
+<li><strong>Retirar el consentimiento</strong>: Ajustes → desactivar <strong>«Compartir datos de uso anónimos»</strong>.</li>
+<li><strong>Borrar tus datos</strong>: Ajustes → <strong>«Borrar mis datos»</strong>. Pide la eliminación de lo asociado a este
+  dispositivo en el servidor propio, y te lo confirma antes de hacerlo.</li>
+</ul>
+<p>Para lo demás, escribe a <code>cainama@cainama.com</code>.</p>
+<h3>Menores</h3>
+<p>La aplicación no está dirigida a menores de 14 años y no les pide datos a propósito.</p>
+<h3>Transferencias fuera de la Unión Europea</h3>
+<p>El servidor propio de estadística está en la Unión Europea. La red publicitaria —Google AdMob o
+AppLovin—, si aceptas la publicidad personalizada, puede tratar datos fuera de ella al amparo de las
+garantías previstas en el Reglamento General de Protección de Datos.</p>
+<h3>Cambios en esta política</h3>
+<p>Si cambia, se actualizará la fecha del principio. Un cambio que afecte a <strong>para qué</strong> se usan tus
+datos se avisará dentro de la aplicación, no sólo aquí.</p>
+<h3>Contacto</h3>
+<p><code>cainama@cainama.com</code> — Cainama, desarrollador de TAppdalucia.</p>
+<footer>Cainama · TAppdalucia</footer>
+</main>
+</body>
+</html>
